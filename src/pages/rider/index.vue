@@ -4,7 +4,7 @@ import { useHead } from '@vueuse/head'
 import { pageTitle } from '/@src/state/navbarLayoutState'
 import axios from './../../axios'
 import { useRoute } from 'vue-router'
-import { defineProps, ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import { Notyf } from 'notyf'
 
 const props = defineProps({ added: { type: Boolean, default: false } })
